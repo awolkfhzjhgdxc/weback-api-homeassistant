@@ -7,7 +7,7 @@
         "data": {
           "username": "Имя пользователя / Email",
           "password": "Пароль",
-          "region": "Регион (7 — International / Россия / Европа, 86 — Китай)",
+          "region": "Регион (7 - International / Россия / Европа, 86 - Китай)",
           "language": "Язык интерфейса приложения",
           "application": "Приложение (WeBack или Redmond)",
           "client_id": "Client ID (по умолчанию yugong_app)",

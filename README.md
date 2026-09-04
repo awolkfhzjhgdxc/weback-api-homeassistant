@@ -50,8 +50,8 @@ The script will:
 
 ## Credits & Acknowledgments
 This project is based on and extends previous reverse engineering and integration work by the community:
-- [opravdin/weback-unofficial](https://github.com/opravdin/weback-unofficial) — original WeBack cloud API protocol research and client.
-- [Jezza34000/homeassistant_weback_component](https://github.com/Jezza34000/homeassistant_weback_component) — initial Home Assistant custom component foundation.
+- [opravdin/weback-unofficial](https://github.com/opravdin/weback-unofficial) - original WeBack cloud API protocol research and client.
+- [Jezza34000/homeassistant_weback_component](https://github.com/Jezza34000/homeassistant_weback_component) - initial Home Assistant custom component foundation.
 
 ## License
 Licensed under the [MIT License](LICENSE).

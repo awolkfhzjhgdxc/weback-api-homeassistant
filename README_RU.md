@@ -50,8 +50,8 @@
    - **Имя пользователя / Email**: email или телефон, на который зарегистрирован аккаунт в приложении WeBack / Tesvor.
    - **Пароль**: пароль от вашего аккаунта.
    - **Регион**:
-     - `7` — для России, Европы и стран за пределами Китая (International).
-     - `86` — для Китая (China).
+     - `7` - для России, Европы и стран за пределами Китая (International).
+     - `86` - для Китая (China).
    - **Язык**: `ru` (русский) или `en` (английский).
    - **Приложение**: выберите `WeBack` (или `Redmond`, если пылесос зарегистрирован в приложении Redmond).
    - **Client ID**: оставьте значение по умолчанию `yugong_app`.
@@ -99,15 +99,15 @@ show_state: false
 ---
 
 ## Протестированные устройства
-- **REDMOND RV-R670S** — полное тестирование функционала: авторизация через Grit Cloud OAuth, управление движением и мощностью, получение статусов батареи и ошибок, динамическая отрисовка карты по лидару (`camera.*_map`).
+- **REDMOND RV-R670S** - полное тестирование функционала: авторизация через Grit Cloud OAuth, управление движением и мощностью, получение статусов батареи и ошибок, динамическая отрисовка карты по лидару (`camera.*_map`).
 - Совместимо с другими моделями экосистемы WeBack / Grit Cloud (Tesvor, Redmond, Mamibot, Neatsvor и др.).
 
 ---
 
 ## Благодарности и первоисточники
 Проект основан на наработках сообщества по исследованию протокола WeBack:
-- [opravdin/weback-unofficial](https://github.com/opravdin/weback-unofficial) — реверс-инжиниринг протокола и клиент облачного API WeBack (автор Олег Правдин).
-- [Jezza34000/homeassistant_weback_component](https://github.com/Jezza34000/homeassistant_weback_component) — первоначальная базовая реализация компонента для Home Assistant.
+- [opravdin/weback-unofficial](https://github.com/opravdin/weback-unofficial) - реверс-инжиниринг протокола и клиент облачного API WeBack (автор Олег Правдин).
+- [Jezza34000/homeassistant_weback_component](https://github.com/Jezza34000/homeassistant_weback_component) - первоначальная базовая реализация компонента для Home Assistant.
 
 ## Лицензия
 Распространяется под лицензией [MIT](LICENSE).
