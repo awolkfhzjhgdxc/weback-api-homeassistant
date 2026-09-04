@@ -11,7 +11,25 @@ Custom component for Home Assistant providing support for robot vacuums using th
 
 ## Installation
 
-### Manual Installation
+### Option 1: Automated Script
+Run the included installer script:
+```bash
+./install.sh
+```
+Or specify the path to your Home Assistant config directory explicitly:
+```bash
+./install.sh /var/lib/homeassistant/homeassistant
+# or
+./install.sh /config
+```
+
+The script will:
+- Auto-detect your Home Assistant directory (supports HA OS, Supervised, Container, and Core).
+- Back up any existing `weback_vacuum` component.
+- Copy files into `<config>/custom_components/weback_vacuum`.
+- Advise the appropriate restart command.
+
+### Option 2: Manual Installation
 1. Copy the `custom_components/weback_vacuum` folder into your Home Assistant `<config>/custom_components/` directory.
 2. Restart Home Assistant.
 3. In Home Assistant, navigate to **Settings** -> **Devices & Services** -> **Add Integration**.
