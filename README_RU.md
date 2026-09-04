@@ -102,3 +102,14 @@ show_state: false
 - **REDMOND RV-R670S** — полное тестирование функционала: авторизация через Grit Cloud OAuth, управление движением и мощностью, получение статусов батареи и ошибок, динамическая отрисовка карты по лидару (`camera.*_map`).
 - Совместимо с другими моделями экосистемы WeBack / Grit Cloud (Tesvor, Redmond, Mamibot, Neatsvor и др.).
 
+---
+
+## Благодарности и первоисточники
+Проект основан на наработках сообщества по исследованию протокола WeBack:
+- [opravdin/weback-unofficial](https://github.com/opravdin/weback-unofficial) — реверс-инжиниринг протокола и клиент облачного API WeBack (автор Олег Правдин).
+- [Jezza34000/homeassistant_weback_component](https://github.com/Jezza34000/homeassistant_weback_component) — первоначальная базовая реализация компонента для Home Assistant.
+
+## Лицензия
+Распространяется под лицензией [MIT](LICENSE).
+
+
