@@ -39,7 +39,12 @@ The script will:
 3. In Home Assistant, navigate to **Settings** -> **Devices & Services** -> **Add Integration**.
 4. Search for **WeBack/Tesvor Vacuum** and enter your credentials.
 
+## Tested Devices
+- **REDMOND RV-R670S** (LDS laser navigation, map generation, live tracking fully verified)
+- Compatible with other WeBack / Grit Cloud based robots (Tesvor, Redmond, Mamibot, Neatsvor, etc.)
+
 ## Requirements
 - Home Assistant 2024.1+ (Python 3.12 / 3.13 / 3.14 compatible)
 - `httpx`
 - `websocket-client`
+
