@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "WeBack / Tesvor Vacuum",
+        "description": "Enter your WeBack account credentials.",
+        "data": {
+          "username": "Username / Email",
+          "password": "Password",
+          "region": "Region",
+          "language": "Language",
+          "application": "Application",
+          "client_id": "Client ID",
+          "api_version": "API Version"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid credentials or authentication failure.",
+      "no_robots": "No vacuum robots found in this account."
+    },
+    "abort": {
+      "already_configured": "Device or account is already configured."
+    }
+  }
+}

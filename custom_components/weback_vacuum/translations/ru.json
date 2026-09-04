@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Пылесос WeBack / Tesvor",
+        "description": "Введите учетные данные вашей учетной записи WeBack / Grit-Cloud.",
+        "data": {
+          "username": "Имя пользователя / Email",
+          "password": "Пароль",
+          "region": "Регион (7 — International / Россия / Европа, 86 — Китай)",
+          "language": "Язык интерфейса приложения",
+          "application": "Приложение (WeBack или Redmond)",
+          "client_id": "Client ID (по умолчанию yugong_app)",
+          "api_version": "Версия API (по умолчанию 1.0)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Неверный логин или пароль, либо ошибка авторизации в облаке.",
+      "no_robots": "В указанном аккаунте не найдено подключенных пылесосов."
+    },
+    "abort": {
+      "already_configured": "Этот аккаунт или устройство уже настроено."
+    }
+  }
+}

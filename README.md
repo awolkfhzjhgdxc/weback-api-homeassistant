@@ -1,6 +1,10 @@
 # WeBack Vacuum for Home Assistant
 
-Custom component for Home Assistant providing support for robot vacuums using the WeBack / Grit Cloud ecosystem (Tesvor, WeBack, etc.).
+Custom component for Home Assistant providing support for robot vacuums using the WeBack / Grit Cloud ecosystem (Tesvor, WeBack, Redmond, etc.).
+
+[📖 Документация и настройка на русском языке (README_RU.md)](README_RU.md)
+
+---
 
 ## Features
 - Full vacuum control (start, pause, stop, return to base, locate, fan speed / suction power control).
